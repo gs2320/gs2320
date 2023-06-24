@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>login-form</title>
+</head>
+<body>
+    <div class="total">
+        <h1>Login</h1>
+        <form id="login-form">
+            <input type="text" id="id" placeholder="ID">
+            <input type="password" id="password" placeholder="PASSWORD">
+            <input type="checkbox" id="check">아이디 저장하기
+            <input type="submit" id="btn" value="Log In">
+        </form>
+    </div>
+</body>
+</html>
